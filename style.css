@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.karty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+    
+    text-align: center;
+}
+
+.karta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 160px;
+    height: 150px;
+    background-color: #f7f7f7;
+    
+    color: black;
+
+}
+.set-kart {
+    display: flex;
+    gap:20px;
+}
+
+.karta:hover{
+    color: #f58222;
+    transition: all .15s ease-out;
+    background-color: #f58222;
+
+}
+
+
+@media (max-width: 1024px){
+    .karty {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        font-family: "Montserrat", sans-serif;
+        
+        text-align: center;
+    }
+    .set-kart {
+        display: flex;
+        gap:20px; 
+        flex-direction: column;
+    }
+}
